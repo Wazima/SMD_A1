@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addPlaylist"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_arrowback"
+
+                android:padding="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:text="Add Playlist"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wrapper_upload"
+            android:backgroundTint="@color/black"></ImageButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/PlaylistName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/roundbar"
+            android:text="Playlist Name"
+            android:textColor="#FFC20F"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/PLDesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Description"
+            android:padding="10dp"
+            android:textColor="#FFC20F"
+            android:background="@drawable/roundbar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginStart="250dp">
+
+
+        <Button
+
+            android:id="@+id/addPla"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:cornerRadius="40dp"
+            android:backgroundTint="#FFC20F"
+            android:text="Add Playlist"
+            android:textAllCaps="false"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#2A2730"
+        android:weightSum="4"
+        >
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/liked5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_heart">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Liked"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <ImageButton
+                android:id="@+id/add5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/wrapper_add"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Add"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/sr5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_search">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ll5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_ll">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Listen Later"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

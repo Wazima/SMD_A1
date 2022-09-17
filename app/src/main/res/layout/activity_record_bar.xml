@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recordStart"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/back7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_arrowback"
+
+                android:padding="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:text="Record"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/next2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="#FFC20F">
+
+            </Button>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wrapper_record"
+
+            android:backgroundTint="@color/black">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/progrssbar"
+            android:padding="18dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFC20F"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:text="1:00 /2:45">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/stop3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/stop"
+
+            >
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/pause2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pausing"
+            android:padding="10dp"
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#2A2730"
+        android:weightSum="4"
+        >
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/liked10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_heart">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Liked"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <ImageButton
+                android:id="@+id/add10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                android:src="@drawable/wrapper_add"
+                >
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Add"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/sr10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_search">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ll10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_ll">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Listen Later"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+
+                tools:ignore="RtlCompat">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
