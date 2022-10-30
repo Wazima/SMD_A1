@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable-anydpi/ic_account.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable-v24/addp.xml" value="0.128" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable-v24/circlegender.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable-v24/roundbar.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable-v24/signupbutton.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/bottombar.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/chatbar.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/circleplus.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/gradient_background.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/ic_cross.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/plus.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/togglebutton.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_account.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_add.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_atif.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_backarrow.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_cd.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_cross.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_despo.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_dots.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_download.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_edit.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_enter.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_filter.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_forward.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_google.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_heart.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_list.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_ll.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_pausebutton.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_play.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_playlist.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_record.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_search.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_upload.xml" value="0.118" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/drawable/wrapper_whiteheart.xml" value="0.133" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_account_details.xml" value="0.2" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_add_playlist.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_credentials.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_liked1.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_liked2.xml" value="0.2359375" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_listen_later.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_playlist2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_playlists1.xml" value="0.1" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_record_bar.xml" value="0.2" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_record_pause.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_record_pauseed_buttons.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_record_start.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_record_stop_play.xml" value="0.2359375" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_search.xml" value="0.2" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_select_playlist.xml" value="0.25" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_signin.xml" value="0.1" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_signin_options.xml" value="0.2" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_signup2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_song_title1.xml" value="0.1" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_song_title_chat.xml" value="0.1" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_songtitle2.xml" value="0.12" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/activity_upload_music.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/credentials.xml" value="0.20427350427350427" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/savedchat.xml" value="0.1" />
+        <entry key="..\:/Users/92309/AndroidStudioProjects/i190439/app/src/main/res/layout/songs_layout.xml" value="0.15142857142857144" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.128" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

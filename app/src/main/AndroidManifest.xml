@@ -72,8 +72,14 @@
             android:name=".playlist2"
             android:exported="false" />
         <activity
-            android:name=".playlists1"
-            android:exported="false" />
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".signin_options"
             android:exported="false" />
@@ -87,13 +93,9 @@
             android:name=".signup"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".playlists1"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

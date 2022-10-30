@@ -35,7 +35,7 @@ public class credentials extends AppCompatActivity {
     CircleImageView dp;
     MainActivity ma;
     EditText firstname,lastname,gender,bio;
-    Button enter;
+    Button enter,back14;
     Bitmap bitmap;
     byte[] arrbyte;
     FirebaseDatabase rootNode;
@@ -53,6 +53,14 @@ public class credentials extends AppCompatActivity {
             gender=findViewById(R.id.gender);
             bio=findViewById(R.id.bio);
             enter=findViewById(R.id.enter);
+            back14=findViewById(R.id.back14);
+
+            back14.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),signup.class));
+                }
+            });
 
 
             dp.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +108,7 @@ public class credentials extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode==20 & resultCode==RESULT_OK){
+        if(requestCode==100 & resultCode==RESULT_OK){
             Uri image=data.getData();
             Calendar c= Calendar.getInstance();
             //dp.setImageURI(image);

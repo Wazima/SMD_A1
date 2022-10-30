@@ -32,7 +32,7 @@ public class playlists1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlists1);
 
-        rv=findViewById(R.id.recycler);
+        rv=findViewById(R.id.recyclerview);
         no_song_found=findViewById(R.id.no_song_found);
 
         if(checkPermission() == false){
@@ -58,7 +58,7 @@ public class playlists1 extends AppCompatActivity {
         if(songlist.size()==0){
             no_song_found.setVisibility(View.VISIBLE);
         }else{
-            rv.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
+            rv.setLayoutManager(new LinearLayoutManager(this));
             rv.setAdapter(new MusicListAdapter(songlist,getApplicationContext()));
         }
     }
@@ -74,7 +74,7 @@ public class playlists1 extends AppCompatActivity {
 
     void requestPermission() {
         if (ActivityCompat.shouldShowRequestPermissionRationale(playlists1.this, Manifest.permission.READ_EXTERNAL_STORAGE)) {
-            Toast.makeText(playlists1.this, "Read permission is required, please allow from settings", Toast.LENGTH_SHORT);
+            Toast.makeText(playlists1.this, "Read permission is required, please allow from settings", Toast.LENGTH_SHORT).show();
 
         } else {
             ActivityCompat.requestPermissions(playlists1.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 123);

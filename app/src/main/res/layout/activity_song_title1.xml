@@ -130,7 +130,8 @@
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:backgroundTint="@color/black"
-                android:src="@drawable/wrapper_play">
+
+                android:src="@drawable/wrapper_pausebutton">
 
 
             </ImageButton>

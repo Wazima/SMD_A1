@@ -59,7 +59,7 @@ public class signup extends AppCompatActivity {
         signin1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),playlists1.class));
+                startActivity(new Intent(getApplicationContext(),signin.class));
                 finish();
             }
         });

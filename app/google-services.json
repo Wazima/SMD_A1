@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "633102678652",
+    "firebase_url": "https://musify-8eb46-default-rtdb.firebaseio.com",
+    "project_id": "musify-8eb46",
+    "storage_bucket": "musify-8eb46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633102678652:android:50361be968bead2b1467f9",
+        "android_client_info": {
+          "package_name": "com.wazimatariq.i190439"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633102678652-ofuhm8ldklcmafsafdnlh5t3puaqbbc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpk4ljX9YjsSU8vcBoomVbEXojYEVdznE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633102678652-ofuhm8ldklcmafsafdnlh5t3puaqbbc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -34,9 +34,9 @@ public class MusicListAdapter extends RecyclerView.Adapter<MusicListAdapter.View
     @Override
     public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         AudioModel songData=songlist.get(position);
-        holder.title.setText(songData.getTitle());
+        holder.titletv.setText(songData.getTitle());
         if(MyMediaPlayer.currentIndex==position){
-            holder.title.setTextColor(Color.parseColor("@white"));
+            holder.titletv.setTextColor(Color.parseColor("@white"));
         }
 
 
@@ -61,11 +61,11 @@ public class MusicListAdapter extends RecyclerView.Adapter<MusicListAdapter.View
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
-        TextView title;
+        TextView titletv;
         ImageView icon;
-        public ViewHolder(@NonNull View itemView) {
+        public ViewHolder(View itemView) {
             super(itemView);
-            title =itemView.findViewById(R.id.song_name);
+            titletv =itemView.findViewById(R.id.song_name);
             icon=itemView.findViewById(R.id.pl1);
         }
     }
