@@ -29,21 +29,21 @@
 
         </RelativeLayout>
 
-       <RelativeLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
 
-           >
+            >
 
 
-           <ImageButton
-               android:id="@+id/account1"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_alignParentRight="true"
-               android:backgroundTint="@color/black"
-               app:srcCompat="@drawable/wrapper_account" />
-       </RelativeLayout>
+            <ImageButton
+                android:id="@+id/account1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/black"
+                app:srcCompat="@drawable/wrapper_account" />
+        </RelativeLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -52,7 +52,6 @@
         android:padding="20dp">
 
         <TextView
-            android:id="@+id/plText"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Playlists"
@@ -69,63 +68,45 @@
         android:layout_width="wrap_content"
         android:layout_height="160dp"
         android:weightSum="3"
-        android:orientation="horizontal">
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
+        >
+       <RelativeLayout
+            android:layout_width="125dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
 
 
             >
 
-            <ImageView
-                android:id="@+id/pl1"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:backgroundTint="@color/black"
-                android:src="@drawable/wrapper_cd"
+           <ImageView
+               android:id="@+id/pl1"
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:backgroundTint="@color/black"
+               android:src="@drawable/wrapper_cd"
 
 
 
-                >
+               >
 
-            </ImageView>
-            <TextView
-                android:id="@+id/song_name"
-                android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerInParent="true"
-                android:gravity="bottom"
-                android:padding="10dp"
-                android:text="Playlist 1"
-                android:textColor="#FFC20F"
-                android:textSize="20dp">
+           </ImageView>
 
-            </TextView>
+           <TextView
+               android:id="@+id/song_name"
+               android:layout_width="match_parent"
+               android:layout_height="180dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerInParent="true"
+               android:gravity="bottom"
+               android:padding="10dp"
+               android:text="Playlist 1"
+               android:textColor="#FFC20F"
+               android:textSize="20dp">
+
+           </TextView>
 
 
 
         </RelativeLayout>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/no_song_found"
-            android:text="No Songs Found"
-            android:layout_centerInParent="true"
-            android:visibility="gone">
-
-        </TextView>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/playlist">
-
-        </androidx.recyclerview.widget.RecyclerView>
 
 
 
@@ -273,31 +254,31 @@
         android:weightSum="7"
         >
 
-    <RelativeLayout
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:gravity="bottom"
-        android:layout_weight="3"
-        >
-
-        <TextView
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="200dp"
             android:layout_height="60dp"
-
-            android:padding="18dp"
-            android:text="Song Name"
-            android:textColor="#FFC20F"
-            android:textSize="18dp"
-            android:textStyle="bold"
-
+            android:gravity="bottom"
+            android:layout_weight="3"
             >
 
-        </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:padding="18dp"
+                android:text="Song Name"
+                android:textColor="#FFC20F"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
 
 
 
 
-    </RelativeLayout>
+        </RelativeLayout>
 
         <RelativeLayout
 
@@ -373,36 +354,36 @@
         android:layout_height="90dp"
         android:background="#2A2730"
         android:weightSum="4"
-       >
+        >
 
-      <RelativeLayout
-          android:layout_weight="1"
-          android:layout_width="25dp"
-          android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="25dp"
+            android:layout_height="match_parent">
 
-          <ImageButton
-              android:id="@+id/liked1"
-              android:layout_width="match_parent"
-              android:layout_height="80dp"
-              android:backgroundTint="#2A2730"
-              android:src="@drawable/wrapper_heart">
+            <ImageButton
+                android:id="@+id/liked1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="#2A2730"
+                android:src="@drawable/wrapper_heart">
 
-          </ImageButton>
+            </ImageButton>
 
-          <TextView
-              android:layout_width="match_parent"
-              android:layout_height="75dp"
-              android:gravity="bottom"
-              android:text="Liked"
-              android:textAlignment="center"
-              android:textColor="@color/white"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:text="Liked"
+                android:textAlignment="center"
+                android:textColor="@color/white"
 
-              tools:ignore="RtlCompat">
+                tools:ignore="RtlCompat">
 
-          </TextView>
+            </TextView>
 
 
-      </RelativeLayout>
+        </RelativeLayout>
         <RelativeLayout
             android:layout_weight="1"
             android:layout_width="25dp"

@@ -55,15 +55,18 @@
             android:layout_width="100dp"
             android:layout_height="match_parent">
 
-            <Button
+            <TextView
                 android:id="@+id/next2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
                 android:text="Next"
+                android:textSize="15dp"
                 android:textAllCaps="false"
                 android:textColor="#FFC20F">
 
-            </Button>
+            </TextView>
 
         </RelativeLayout>
     </LinearLayout>
@@ -157,12 +160,12 @@
         >
 
         <RelativeLayout
-            android:layout_weight="1"
             android:layout_width="25dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
             <ImageButton
-                android:id="@+id/liked10"
+                android:id="@+id/liked4"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:backgroundTint="#2A2730"
