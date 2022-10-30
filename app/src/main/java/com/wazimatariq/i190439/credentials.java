@@ -45,7 +45,7 @@ public class credentials extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_credentials);
 
-
+    //saving data in the files
 
             dp=findViewById(R.id.dp);
             firstname=findViewById(R.id.firstname);
